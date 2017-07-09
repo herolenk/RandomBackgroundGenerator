@@ -1,0 +1,143 @@
+/* ///////////////////////////////////////////////////*/
+/* //////////////////General /////////////////////////*/
+/* ///////////////////////////////////////////////////*/
+*{
+    box-sizing:border-box;
+}
+
+.container{
+
+    width: 1080px;
+    margin: 0 auto;
+}
+body{
+    background: red;
+    background: -webkit-linear-gradient( #29323c, #485563);
+    background: -o-linear-gradient( #29323c, #485563);
+    background: -moz-linear-gradient( #29323c, #485563);
+    background: linear-gradient( #29323c, #485563);
+    
+}
+
+
+/* ///////////////////////////////////////////////////*/
+/* //////////////////Header //////////////////////////*/
+/* ///////////////////////////////////////////////////*/
+.header{
+   height: 150px; 
+   background: red;
+   background: -webkit-linear-gradient(#cfd9df, #e2ebf0);
+   background: -o-linear-gradient(#cfd9df, #e2ebf0);
+   background: -moz-linear-gradient(#cfd9df, #e2ebf0);
+   background: linear-gradient(#cfd9df, #e2ebf0);
+}
+.title{
+    position: relative;
+    top: 52px;
+    
+}
+h1{
+    font-size: 46px;
+    text-align: center;
+    color:#1c4586;
+    
+    
+}
+
+
+/* ///////////////////////////////////////////////////*/
+/* //////////////////Main ////////////////////////////*/
+/* ///////////////////////////////////////////////////*/
+
+.main{
+    background: green;
+    background: -webkit-linear-gradient(#feada6, #f5efef);
+    background: -o-linear-gradient(#feada6, #f5efef);
+    background: -moz-linear-gradient(#feada6, #f5efef);
+    background: linear-gradient(#feada6, #f5efef);
+    padding-bottom: 75px;
+}
+.boxes{
+    width: 90%;
+    margin: 0 auto;
+}
+.box{
+    
+    border: 3px solid maroon;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 50px;
+}
+
+.buttons{
+    
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn{
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+    color: floralwhite;
+    background-color:darkcyan;
+    border: 4px double #cef7dd;  
+    border-radius: 7px;
+}
+
+.btn:hover{
+    padding: 12px;
+    cursor: crosshair;
+}
+.blog1,
+.blog2,
+.blog3,
+.blog4,
+.blog5,
+.blog6{
+    padding: 10px; 
+}
+
+
+.blog1{
+    
+}
+.blog2{
+    margin-left: 10%;
+}
+.blog3{
+    margin-left: 20%;
+}
+.blog4{
+    margin-left: 30%;
+}
+.blog5{
+    margin-left: 40%;
+}
+.blog6{
+    margin-left: 50%;
+}
+/* ///////////////////////////////////////////////////*/
+/* //////////////////Footer///////////////////////////*/
+/* ///////////////////////////////////////////////////*/
+
+
+
+
+.footer{
+    height: 60px;
+    background: maroon;
+    background: -webkit-linear-gradient(#13547a, #80d0c7);
+    background: -o-linear-gradient(#13547a, #80d0c7);
+    background: -moz-linear-gradient(#13547a, #80d0c7);
+    background: linear-gradient(#13547a, #80d0c7);
+}
+.footer p{
+    font-size: 16px,;
+    text-align: center;
+    color: azure;
+    position: relative;
+    top: 22px;
+}
